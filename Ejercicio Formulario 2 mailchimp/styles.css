@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.form_mailchimp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 8%;
+}
+
+.logo_mailchimp {
+  width: 10%;
+  height: 10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+form h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0px;
+  margin-bottom: 16px;
+}
+
+form p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+form label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+form input {
+  margin-bottom: 16px;
+  height: 32px;
+  color: grey;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+li {
+  font-size: 0.9rem;
+}
+
+.submit_info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  color: gray;
+  border-color: solid 0.5px gray;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.submit_paragraph {
+  margin-left: 1%;
+  margin-bottom: 0px;
+}
